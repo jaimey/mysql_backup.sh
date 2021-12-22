@@ -40,7 +40,7 @@ KEEP_BACKUPS_FOR=30 #days
 #==============================================================================
 
 # YYYY-MM-DD
-TIMESTAMP=$(date +%F)
+TIMESTAMP=$(date "+%F.%T")
 
 function delete_old_backups()
 {
